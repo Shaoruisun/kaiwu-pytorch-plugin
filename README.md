@@ -33,6 +33,10 @@ dgl (Deep Graph Library)
 networkx==3.0
 kaiwu (Kaiwu 量子计算框架)
 ```
+### 数据集
+```
+将该路径下https://github.com/YuBinLab-QUST/BiVAE-CPI/的data/ dataset/ 文件夹放入该路径即可
+```
 
 ### 安装步骤
 
