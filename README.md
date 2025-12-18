@@ -27,7 +27,7 @@ scikit-learn==1.1.2
 torch==1.12.1
 dgl (Deep Graph Library)
 networkx==3.0
-kaiwu (腾讯 Kaiwu 量子计算框架)
+kaiwu (Kaiwu 量子计算框架)
 ```
 
 ### 安装步骤
@@ -72,7 +72,7 @@ BiVAE-CPI-main/
 │   │   └── origin/           # 包含处理后的 .npy 文件和字典
 │   └── celegans/
 ├── result/                    # 训练结果保存目录
-└── README.md                  # 英文说明文档
+└── README.md                  # 说明文档
 ```
 
 ---
