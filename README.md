@@ -2,7 +2,7 @@
 
 ## 项目简介
 该项目是复现《BiVAE-CPI: An Interpretable Generative Model Using a Bilateral Variational Autoencoder for Compound−Protein Interaction Prediction》的工作，并使用量子玻尔兹曼机变分自编码器进一步提升模型性能。
-由于数据集太大，无法上传，可前往原始项目中下载（https://github.com/YuBinLab-QUST/BiVAE-CPI/）
+由于数据集太大，无法上传，可前往原始项目中下载（https://github.com/YuBinLab-QUST/BiVAE-CPI/）。
 BiVAE-CPI 是一个基于深度学习的化合物-蛋白质相互作用（Compound-Protein Interaction, CPI）预测模型。该项目利用**双向变分自编码器（Bilateral Variational Autoencoder, BiVAE）**和**量子玻尔兹曼机变分自编码器（BiQBMVAE）**从化合物和蛋白质的交互矩阵中学习潜在表示，结合图神经网络和卷积神经网络对化合物和蛋白质进行特征提取，从而实现高精度的相互作用预测。
 
 ### 核心特性
