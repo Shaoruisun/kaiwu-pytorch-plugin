@@ -1,0 +1,5 @@
+Experiment,Dataset,Model,Learning_Rate,Latent_Dim_k,Dropout,Num_Visible,Num_Hidden,Best_Epoch,Test_AUC,Test_F1,Test_AUPR,Test_Precision,Test_Recall,Training_Time
+bivae_celegans_default,celegans,BiVAE,0.0005,20,0.1,N/A,N/A,20,0.989751,0.966625,0.990689,0.960688,0.972637,4760.579462051392
+biqbmvae_celegans_default,celegans,BiQBMVAE,0.0005,20,0.1,10,10,16,0.992406,0.97628,0.994554,0.97995,0.972637,3679.6315412521362
+biqbmvae_human_default,human,BiQBMVAE,0.0005,20,0.1,10,10,4,0.997529,0.985692,0.997888,0.987261,0.984127,2969.6624579429626
+bivae_human_default,human,BiVAE,0.0005,20,0.1,N/A,N/A,6,0.984396,0.945568,0.987515,0.926829,0.965079,4427.922684907913

@@ -1,0 +1,46 @@
+{
+  "timestamp": "20251218_115445",
+  "total_experiments": 4,
+  "summaries": [
+    {
+      "experiment_name": "bivae_human_default",
+      "dataset": "human",
+      "model_type": "BiVAE",
+      "best_epoch": 6,
+      "best_test_auc": 0.984396,
+      "best_test_f1": 0.945568,
+      "best_test_aupr": 0.987515,
+      "training_time": 4427.922684907913
+    },
+    {
+      "experiment_name": "biqbmvae_human_default",
+      "dataset": "human",
+      "model_type": "BiQBMVAE",
+      "best_epoch": 4,
+      "best_test_auc": 0.997529,
+      "best_test_f1": 0.985692,
+      "best_test_aupr": 0.997888,
+      "training_time": 2969.6624579429626
+    },
+    {
+      "experiment_name": "bivae_celegans_default",
+      "dataset": "celegans",
+      "model_type": "BiVAE",
+      "best_epoch": 20,
+      "best_test_auc": 0.989751,
+      "best_test_f1": 0.966625,
+      "best_test_aupr": 0.990689,
+      "training_time": 4760.579462051392
+    },
+    {
+      "experiment_name": "biqbmvae_celegans_default",
+      "dataset": "celegans",
+      "model_type": "BiQBMVAE",
+      "best_epoch": 16,
+      "best_test_auc": 0.992406,
+      "best_test_f1": 0.97628,
+      "best_test_aupr": 0.994554,
+      "training_time": 3679.6315412521362
+    }
+  ]
+}

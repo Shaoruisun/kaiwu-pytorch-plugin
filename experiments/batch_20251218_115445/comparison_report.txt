@@ -1,0 +1,103 @@
+====================================================================================================
+BIVAE-CPI EXPERIMENT COMPARISON REPORT
+====================================================================================================
+Batch Directory: ../experiments/batch_20251218_115445
+Total Experiments: 4
+====================================================================================================
+
+
+FULL SUMMARY TABLE
+====================================================================================================
+               Experiment  Dataset    Model  Learning_Rate  Latent_Dim_k  Dropout Num_Visible Num_Hidden  Best_Epoch  Test_AUC  Test_F1  Test_AUPR  Test_Precision  Test_Recall  Training_Time
+   bivae_celegans_default celegans    BiVAE         0.0005            20      0.1         N/A        N/A          20  0.989751 0.966625   0.990689        0.960688     0.972637    4760.579462
+biqbmvae_celegans_default celegans BiQBMVAE         0.0005            20      0.1          10         10          16  0.992406 0.976280   0.994554        0.979950     0.972637    3679.631541
+   biqbmvae_human_default    human BiQBMVAE         0.0005            20      0.1          10         10           4  0.997529 0.985692   0.997888        0.987261     0.984127    2969.662458
+      bivae_human_default    human    BiVAE         0.0005            20      0.1         N/A        N/A           6  0.984396 0.945568   0.987515        0.926829     0.965079    4427.922685
+
+====================================================================================================
+COMPARISON BY DATASET
+====================================================================================================
+
+CELEGANS Dataset:
+----------------------------------------------------------------------------------------------------
+               Experiment    Model  Test_AUC  Test_F1  Test_AUPR
+   bivae_celegans_default    BiVAE  0.989751 0.966625   0.990689
+biqbmvae_celegans_default BiQBMVAE  0.992406 0.976280   0.994554
+
+Statistics for celegans:
+  Best AUC: 0.9924 (biqbmvae_celegans_default)
+  Best F1:  0.9763 (biqbmvae_celegans_default)
+  Best AUPR: 0.9946 (biqbmvae_celegans_default)
+
+HUMAN Dataset:
+----------------------------------------------------------------------------------------------------
+            Experiment    Model  Test_AUC  Test_F1  Test_AUPR
+biqbmvae_human_default BiQBMVAE  0.997529 0.985692   0.997888
+   bivae_human_default    BiVAE  0.984396 0.945568   0.987515
+
+Statistics for human:
+  Best AUC: 0.9975 (biqbmvae_human_default)
+  Best F1:  0.9857 (biqbmvae_human_default)
+  Best AUPR: 0.9979 (biqbmvae_human_default)
+
+====================================================================================================
+COMPARISON BY MODEL TYPE
+====================================================================================================
+
+BiVAE Model:
+----------------------------------------------------------------------------------------------------
+
+  celegans Dataset:
+    Mean AUC:  0.9898 ± nan
+    Mean F1:   0.9666 ± nan
+    Mean AUPR: 0.9907 ± nan
+
+  human Dataset:
+    Mean AUC:  0.9844 ± nan
+    Mean F1:   0.9456 ± nan
+    Mean AUPR: 0.9875 ± nan
+
+BiQBMVAE Model:
+----------------------------------------------------------------------------------------------------
+
+  celegans Dataset:
+    Mean AUC:  0.9924 ± nan
+    Mean F1:   0.9763 ± nan
+    Mean AUPR: 0.9946 ± nan
+
+  human Dataset:
+    Mean AUC:  0.9975 ± nan
+    Mean F1:   0.9857 ± nan
+    Mean AUPR: 0.9979 ± nan
+
+====================================================================================================
+LEARNING CURVE ANALYSIS
+====================================================================================================
+
+bivae_celegans_default:
+----------------------------------------------------------------------------------------------------
+  Final Train AUC: 1.0000
+  Final Dev AUC:   0.9964
+  Final Test AUC:  0.9898
+  Best Dev AUC:    0.9964 (Epoch 20)
+
+biqbmvae_celegans_default:
+----------------------------------------------------------------------------------------------------
+  Final Train AUC: 1.0000
+  Final Dev AUC:   0.9989
+  Final Test AUC:  0.9923
+  Best Dev AUC:    0.9989 (Epoch 16)
+
+biqbmvae_human_default:
+----------------------------------------------------------------------------------------------------
+  Final Train AUC: 1.0000
+  Final Dev AUC:   0.9897
+  Final Test AUC:  0.9984
+  Best Dev AUC:    0.9917 (Epoch 4)
+
+bivae_human_default:
+----------------------------------------------------------------------------------------------------
+  Final Train AUC: 1.0000
+  Final Dev AUC:   0.9808
+  Final Test AUC:  0.9830
+  Best Dev AUC:    0.9833 (Epoch 6)
