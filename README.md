@@ -140,12 +140,11 @@ python main.py \
 | BiVAE | 0.912 | 0.885 | 0.841 | 15分钟 |
 | **BiQBMVAE** | **0.923** | **0.897** | **0.856** | 25分钟 |
 | 性能提升 | +1.2% | +1.4% | +1.8% | +67% |
-experiments/batch_20251218_115445/analysis/training_curves.png
 **结论**：
 - BiQBMVAE 在所有指标上优于 BiVAE
 - 训练时间增加约67%，但性能提升显著
 - 对于追求最高精度的应用，BiQBMVAE 是更好的选择
-
+!https://github.com/Shaoruisun/kaiwu-pytorch-plugin/tree/main/experiments/batch_20251218_115445/analysis/training_curves.png
 ## 模型架构
 
 ### 整体架构概览
