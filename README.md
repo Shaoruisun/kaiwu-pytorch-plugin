@@ -223,12 +223,6 @@ LayerNorm: 归一化隐藏层激活
     ↓
 输出: z ∈ R^k (潜在表示)
 ```
-
-**特点**：
-- 使用 LayerNorm 而非 BatchNorm，适应小批量训练
-- 可配置的激活函数，默认使用 ReLU
-- L2权重衰减正则化，防止过拟合
-
 ##### 2. 量子玻尔兹曼机（RestrictedBoltzmannMachine）
 
 这是 BiQBMVAE 的**核心量子组件**，来自Kaiwu 量子计算框架。
