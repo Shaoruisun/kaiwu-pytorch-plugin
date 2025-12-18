@@ -132,7 +132,7 @@ python main.py \
 ```
 
 ### BiQBMVAE vs BiVAE 实验对比
-
+具体相关图在experiments/文件夹
 在 Human 数据集上的对比实验（使用相同的超参数）：
 
 | 模型 | AUC | AUPR | F1 Score | 训练时间 |
@@ -144,7 +144,7 @@ python main.py \
 - BiQBMVAE 在所有指标上优于 BiVAE
 - 训练时间增加约67%，但性能提升显著
 - 对于追求最高精度的应用，BiQBMVAE 是更好的选择
-<img src="[[https://example.com/image.jpg](https://github.com/Shaoruisun/kaiwu-pytorch-plugin/tree/main/experiments/batch_20251218_115445/analysis/training_curves.png)](https://github.com/Shaoruisun/kaiwu-pytorch-plugin/tree/main/experiments/batch_20251218_115445/analysis/training_curves.png)" width="300" height="200">
+- 
 ## 模型架构
 
 ### 整体架构概览
